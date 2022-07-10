@@ -4,7 +4,7 @@
   width:476px;
   justify-content: center;
   margin-top: 75px;
-  background-image: url("Assets/triangle.png");
+  background-image: url("../Assets/triangle.png");
   background-position: center;
   background-repeat: no-repeat;
   transition: all .50s;
