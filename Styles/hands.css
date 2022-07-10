@@ -1,0 +1,23 @@
+.hands {
+  display: flex;
+  flex-wrap: wrap;
+  width:476px;
+  justify-content: center;
+  margin-top: 75px;
+  background-image: url("Assets/triangle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all .50s;
+  
+}
+#rock {
+  margin-right: 40px;
+}
+.hand {
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.hand:hover {
+  transform: translate3d(0px, -8px, 0px);;
+}

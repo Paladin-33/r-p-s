@@ -1,0 +1,73 @@
+.contest {
+  display: flex;
+  flex-direction: row;
+  width:900px;
+  color: white;
+  /* border: solid 1px white; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-top: 50px;
+  height: auto;
+  margin-bottom: 100px;
+  display: none;
+  transition: all .50s;
+}
+.contest img {
+  width: 250px;
+  height: 250px;
+}
+
+.user-hand {
+  /* border: solid 1px white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  flex: 1;
+ 
+}
+.mid-section {
+  /* border: solid 1px white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  flex: 1;
+}
+.decision h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.ai-hand {
+  /* border: solid 1px white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  flex: 1;
+}
+.user-hand h1, .ai-hand h1  {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.new-game {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all .20s;
+}
+.new-game:hover {
+  background-color:rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  transform: translate3d(0px, -5px, 0px);
+ 
+}

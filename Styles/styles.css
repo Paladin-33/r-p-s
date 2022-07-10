@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient( 
+    134.34% 134.34% at 50% 0%,
+    #1f3757 0%,
+    #131537 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clear {
+  height: auto;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all .15s;
+  margin-top: 50px;
+  padding: auto;
+  padding: 5px 5px;
+}
+#clear p {
+  font-weight: 500;
+}
+#clear:hover {
+  background-color:rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
