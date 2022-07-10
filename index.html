@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Play Rock-Paper-Scissors Online!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scoreboard.css">
+    <link rel="stylesheet" href="hands.css">
+    <link rel="stylesheet" href="contest.css">
+   
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <div id="scoreboard">
+          <div id="title">
+            <img src="Assets\title.png" alt="title">
+          </div>
+          <div class="scores">
+            <div class="user-score">
+              <p>Your Score</p>
+              <h1 id="user-score-display">0</h1>
+            </div>
+            <div class="ai-score">
+              <p>AI Score</p>
+              <h1 id="ai-score-display">0</h1>
+            </div>
+          </div>   
+        </div>
+        <div class="hands">
+          <div class="hand" id="rock"> <img src="Assets/Rock.png" alt="rock" onclick="pickUserHand()"></div>
+          <div class="hand" id="paper"> <img src="Assets/Paper.png" alt="paper" onclick="pickUserHand()"></div>
+          <div class="hand" id="scissors"> <img src="Assets/Scissors.png" alt="scissors" onclick="pickUserHand()"></div>
+        </div>
+        <div class="contest">
+          <div class="user-hand">
+            <h1>YOU PICKED</h1>
+            <img id ="user-pick" src="" alt="">
+          </div>
+          <div class="mid-section">
+            <div class="decision"><h1 id="decision">YOU WIN!</h1></div>
+            <button class="new-game" onclick="keepPlaying()">KEEP PLAYING</button>
+
+          </div>
+          <div class="ai-hand">
+            <h1>THE COMPUTER PICKED</h1>
+            <img id="ai-pick"src="Assets/Rock.png" alt="rock">
+          </div>
+        </div>
+        <button id="clear"><p>&#10005 Clear Scores</p></button>
+    </div>
+  
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
